@@ -1,3 +1,5 @@
 useradd ushi
 useradd maria
 sudo chpasswd < /projekte/git-shared-work/git-shared-work/credentials
+grouadd designer
+usermod -aG designer Ushi
