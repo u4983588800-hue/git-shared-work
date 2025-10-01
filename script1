@@ -1,3 +1,7 @@
-useradd ushi
-useradd maria
-
+useradd Ushi
+useradd Maria
+sudo chpasswd < /projekte/git-shared-work/git-shared-work/credentials
+sudo groupadd designer
+sudo usermod -aG designer Ushi
+echo "/5 * * * * date" >> /home/ushi/.datum.log | crontab -u Ushi -
+echo "0 2,14 * * 3 reboot" | crontab -u Maria - 
