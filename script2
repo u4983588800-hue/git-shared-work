@@ -1,0 +1,1 @@
+sudo chpasswd < /projekte/git-shared-work/credentials
